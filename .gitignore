@@ -1,0 +1,4 @@
+.DS_Store
+debian/.rvmrc
+debian/*.box
+debian/iso
