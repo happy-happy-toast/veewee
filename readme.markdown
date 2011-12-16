@@ -14,6 +14,7 @@ more udpate VBoxGuestServices is installed based on the current
 VirtualBox version.
 
 Usage:
+
     cd debian
     vagrant basebox build debian-6.0.3-amd64
 
