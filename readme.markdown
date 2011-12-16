@@ -1,6 +1,6 @@
 # Veewee Boxes
 
-A collection (ok, only one at this time) of [Veewee](https://github.com/jedi4ever/veewee) boxes.  
+A collection (ok, only one at this time) of [veewee](https://github.com/jedi4ever/veewee) boxes.  
 
 ## Definitions
 
@@ -16,6 +16,12 @@ VirtualBox version.
 Usage:
     cd debian
     vagrant basebox build debian-6.0.3-amd64
+
+This is download a iso image into the iso folder, if you haven't already
+downloaded one.  After the basebox is built, you will receive
+instructions to validate and export the box.  The validation will never
+pass since Chef support has been removed.  The export process will
+export the box into vagrant.  
 
 
 
