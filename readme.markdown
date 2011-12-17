@@ -1,6 +1,16 @@
 # Veewee Boxes
 
-A collection (ok, only one at this time) of [veewee](https://github.com/jedi4ever/veewee) boxes.  
+A collection (ok, only one at this time) of [veewee](https://github.com/jedi4ever/veewee) boxes.  In order to use,
+you must install vagrant and veewee.
+
+   gem install vagrant
+   gem install veewee
+
+If you are not using [rvm](http://beginrescueend.com/) (or something similar) you may need to use
+"sudo" to install these gems.
+
+*RECOMMENDATION:* use rvm to manage your ruby and gem versions, along with a
+[.rvmrc](http://beginrescueend.com/workflow/rvmrc/) file.  These two gems install a lot of dependency gems.
 
 ## Definitions
 
