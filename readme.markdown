@@ -36,6 +36,9 @@ instructions to validate and export the box.  The validation will never
 pass since Chef support has been removed.  The export process will
 export the box into vagrant.  
 
+Once you export the box, you will be given instructions on how to use
+the new base box in vagrant.
+
 
 
 
