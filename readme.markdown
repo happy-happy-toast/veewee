@@ -16,6 +16,10 @@ If you are not using [rvm](http://beginrescueend.com/) (or something similar) yo
 
 #### debian/debian-6.0.3-amd64
 
+This is based off of the Debian-6.0.3-amd64-netboot template, with the
+setup postinstall.sh mostly coming from the ubuntu-11.04-server-amd64
+template postinstall.sh.  
+
 Ruby 1.8.7 is installed via packages instead of source. Rubygems is install
 via source to get the latest stable version 1.8.12.  A newer version of
 ruby wasn't installed because puppet will be used to setup rvm for each
@@ -39,6 +43,10 @@ export the box into vagrant.
 Once you export the box, you will be given instructions on how to use
 the new base box in vagrant.
 
+#### debian/debian-6.0.3-amd64-minimal
+
+This is basically the same setup as the debian-6.0.3-amd64, minus the
+ruby installations.  Plan on using [sprinkle](https://github.com/crafterm/sprinkle) for the provision of the server.
 
 
 
