@@ -3,8 +3,8 @@
 A collection (ok, only one at this time) of [veewee](https://github.com/jedi4ever/veewee) boxes.  In order to use,
 you must install vagrant and veewee.
 
-   gem install vagrant
-   gem install veewee
+    gem install vagrant
+    gem install veewee
 
 If you are not using [rvm](http://beginrescueend.com/) (or something similar) you may need to use
 "sudo" to install these gems.
